@@ -7,6 +7,18 @@ p {
   font-family: 'Circular Std Book';
 }
 
+button {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
 @media (min-width: 922px) {
   h1 {
     font-size: $h1-font-size-md;
