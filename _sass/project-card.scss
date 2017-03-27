@@ -36,6 +36,10 @@
   }
 }
 
+.project-card:hover {
+  box-shadow: -20px 20px 35px #d1d1d1;
+}
+
 @media (min-width: 480px) {
   .project-card {
 
