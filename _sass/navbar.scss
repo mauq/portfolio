@@ -5,7 +5,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .item {
     visibility: hidden;
   }
@@ -66,4 +66,22 @@
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 50px;
+}
+
+.hamburger-menu {
+  width: 100vw;
+  border-bottom: 1px solid #d2d2d2;
+  flex-direction: column;
+  display: none;
+  align-items: center;
+  position: fixed;
+  top: 10vh;
+  left: 0px;
+  z-index: 100;
+  background-color: #f2f2f2;
+}
+
+.vert-item {
+  color: black;
+  font-family: 'Circular Std Medium';
 }
