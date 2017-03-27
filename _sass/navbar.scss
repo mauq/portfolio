@@ -23,13 +23,15 @@
   justify-content: flex-end;
   top: 0px;
   left: 0px;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .hamburger {
   z-index: 101;
   position: fixed;
   top: 15px;
-  left: 15px;
+  left: 10vw;
   font-size: 25px;
   cursor: pointer;
   color: white;

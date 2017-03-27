@@ -6,8 +6,16 @@
 
     <div class="page-content">
       {% include text-photo-tuple.html %}
-      {% include project-card.html %}
-      {% include project-card.html %}
+
+      {% for item in site.data.home.projects %}
+        {% include project-card.html %}
+      {% endfor %}
+
+      <div class="hero-heading">
+        <h1>What I Offer...</h1>
+      </div>
+
+      {% include service-card-container.html %}
     </div>
 
     {% include footer.html %}
