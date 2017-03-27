@@ -23,7 +23,7 @@
 @media (min-width: 480px) {
   .tp-tuple {
     p {
-      font-size: 22px;
+      font-size: 20px;
     }
   }
 }
@@ -32,6 +32,11 @@
   .tp-tuple {
     margin-top: 20vh;
 
+    p {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
     .tp-tuple-photo {
       display: block;
     }
@@ -39,9 +44,15 @@
 }
 
 @media (min-width: 922px) {
+  .tp-tuple {
+    margin-top: 20vh;
 
+    p {
+      font-size: 22px;
+    }
+  }
 }
 
-@media (min-width: 1200px) {
-
-}
+// @media (min-width: 1200px) {
+//
+// }
