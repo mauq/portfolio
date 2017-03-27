@@ -1,25 +1,69 @@
 @media (min-width: 768px) {
-    .navy {
-      width: 100vw;
-      height: 10vh;
-    }
-
     .hamburger {
       display: none;
       visibility: hidden;
     }
 }
 
+@media (max-width: 768px) {
+  .item {
+    visibility: hidden;
+  }
+}
+
 .navy {
   background-color: #161616;
   z-index: 100;
+  width: 100vw;
+  height: 10vh;
+  box-shadow: 0px 0px 3px #424242;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: flex-end;
+  top: 0px;
+  left: 0px;
 }
 
 .hamburger {
-  display: block;
   z-index: 101;
   position: fixed;
   top: 15px;
   left: 15px;
-  font-size: 24px;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.item {
+  color: white;
+  font-family: 'Circular Std Medium';
+  font-size: $base-font-size;
+  text-align: center;
+  flex-basis: 10%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.item:hover {
+  color: #28e4b5;
+  cursor: pointer;
+}
+
+.contact-item {
+  flex-basis: 12%;
+}
+
+.contact-item:hover {
+  color: black;
+}
+
+.contact-button {
+  background-color: #28e4b5;
+  border: none;
+  height: 8vh;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50px;
 }

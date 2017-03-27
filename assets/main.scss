@@ -43,7 +43,7 @@
 }
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "Circular Std Book", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $h1-font-size-lg: 140px;
 $h1-font-size-md: 125px;
@@ -68,6 +68,10 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+.page-content {
+  margin-top: 10vh;
+}
 
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
