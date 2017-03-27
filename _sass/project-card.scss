@@ -11,6 +11,7 @@
   .left-panel {
     padding-left: 35px;
     padding-top: 45px;
+    width: 50%;
 
     h2 {
       color: $grey-color-dark;
@@ -46,6 +47,13 @@
 @media (min-width: 768px) {
   .project-card {
     height: 400px;
+    font-size: 34px;
+
+    .left-panel {
+      p {
+        font-size: 24px;
+      }
+    }
 
     .rt-img {
       height: 400px;

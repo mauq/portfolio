@@ -1,6 +1,11 @@
 .tp-tuple {
   min-width: 320px;
   margin-top: 15vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 
   p {
     font-family: 'Circular Std Book';
@@ -9,9 +14,16 @@
     line-height: 2.2em;
   }
 
+  .tp-tuple-text {
+    padding-left: 0px;
+  }
+
   .tp-tuple-photo {
     display: none;
-    text-align: center;
+    text-align: right;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 0px;
 
     img {
       max-width: 100%;
@@ -33,7 +45,6 @@
     margin-top: 20vh;
 
     p {
-      padding-left: 20px;
       padding-right: 20px;
     }
 
