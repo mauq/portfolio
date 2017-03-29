@@ -5,5 +5,8 @@
   </div>
   <div class="project-item">
     <h2>Deliverables</h2>
+    {% for item in site.data.projects[page.title].deliverables %}
+      <p>{{item}}</p>
+    {% endfor %}
   </div>
 </div>
