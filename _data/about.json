@@ -1,3 +1,10 @@
 {
-  
+  "about": "I'm Quinn. I'm currently a senior at the University of Washington studying Human Centered Design & Engineering and Quantitative Science. I'm currently seeking an entry level position/internship in experience and interface design, data science, or software development. While most of my expertise lies in programming, namely front-end web development and software development, I am incredibly intrigued by data, statistics, and the intersection of data, statistics, and programming.<br></br> I'm interested in working towards a cause I support like conserving and restoring the environment or protecting the wellbeing of those in need. I believe my technical background and interest in my work gives me a competitive edge in all my endeavors in and out of the workplace.<br></br> If you're interested in learning more, feel free to shoot me an email at the address below or connect with me on LinkedIn!",
+  "interests": ["Music Recording/Production", "Fly Fishing", "Rock Climbing", "Tinkering", "Birkenstocks", "Tacos", "Long Walks on the Beach", "Getting Caught in the Rain", "Jokes"],
+  "skills": ["HTML", "CSS/SCSS", "D3", "React", "Jekyll", "Java", "Python", "R", "Git", "Adobe XD", "Adobe Illustrator", "Sketch", "MS Excel"],
+  "email": "mauqj3@gmail.com",
+  "linked": "https://www.linkedin.com/in/quinn-mau-199a95113/",
+  "resume": "http://students.washington.edu/mauq/Portfolio/Resume-Final.pdf",
+  "big-img": "https://unsplash.it/500x600",
+  "sml-img": "https://unsplash.it/400"
 }

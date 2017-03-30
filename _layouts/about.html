@@ -3,8 +3,33 @@
   {% include head.html %}
 
   <body>
+    {% include navbar.html %}
+    <div class="about-me">
+      <img class="big-img img-fluid" src="{{site.data.about.big-img}}" alt="">
+      <h2>About</h2>
+      <p>{{site.data.about.about}}</p>
+    </div>
 
-    
+    <div class="skills">
+      <img class="skill-item" src="{{site.data.about.sml-img}}" alt="">
+      <div class="skill-item">
+        <h2>Interets</h2>
+        {% for item in site.data.about.interests %}
+          <p>{{item}}</p>
+        {% endfor %}
+      </div>
+      <div class="skill-item">
+        <h2>Skills</h2>
+        {% for item in site.data.about.skills %}
+          <p>{{item}}</p>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="">
+      <h2>Contact</h2>
+    </div>
+
 
     {% include footer.html %}
     <script
