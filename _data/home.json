@@ -5,17 +5,20 @@
     {
       "title": "IMS Health",
       "description": "Apollo UI Design Resource Base",
-      "img": "https://unsplash.it/700"
+      "img": "https://unsplash.it/700",
+      "url": "/ims-health"
     },
     {
       "title": "Bacteria Analysis",
       "description": "Bacteria Analysis and Data Visualization",
-      "img": "https://unsplash.it/700"
+      "img": "https://unsplash.it/700",
+      "url": "/bacteria-analysis"
     },
     {
       "title": "Forecast Finder",
       "description": "API Mashup Web Application",
-      "img": "https://unsplash.it/700"
+      "img": "https://unsplash.it/700",
+      "url": "/forecast-finder"
     }
   ],
   "services": [

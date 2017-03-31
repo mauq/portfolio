@@ -1,9 +1,13 @@
 <div class="project-card">
-  <div class="left-panel">
-    <h2>{{item.title}}</h2>
-    <p>{{item.description}}</p>
-  </div>
-  <div class="rt-img">
-    <img class="img-fluid" src="{{item.img}}" alt="">
-  </div>
+  <a href="{{ item.url }}">
+    <div class="left-panel">
+      <h2>{{item.title}}</h2>
+      <p>{{item.description}}</p>
+    </div>
+  </a>
+  <a href="{{ item.url }}">
+    <div class="rt-img">
+      <img class="img-fluid" src="{{item.img}}" alt="">
+    </div>
+  </a>
 </div>
