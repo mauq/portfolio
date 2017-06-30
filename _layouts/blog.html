@@ -2,9 +2,13 @@
 <html>
   {% include head.html %}
   <body>
+    <div class="jumbotron">
+      <h1>Blog</h1>
+      <p>A glimpse at my journey of becoming a data scientist!</p>
+    </div>
 
     <div class="container">
-      <h1>Title</h1>
+      {{ content }}
     </div>
 
     {% include foot.html %}
