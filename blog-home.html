@@ -2,11 +2,14 @@
 
 layout: blog
 title: blog
+permalink: /blog/
 
 ---
 <ul>
   {% for post in site.posts %}
-    <h2>title</h2>
-    <p>Some content.</p>
+    <li class="blog-post">
+      <h2>{{ post.title }}</h2>
+      <p>Some description.</p>
+    </li>
   {% endfor %}
 </ul>

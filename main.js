@@ -1,10 +1,19 @@
 $(function() {
+  function home() {
+    window.location.href='/';
+    $('#blog').removeClass('active');
+    $(this).addClass('active');
+    console.log('home');
+  }
 
-  //slide toggle for hamburger menu
-  $('.hamburger').click(function() {
-    $('.hamburger-menu').slideToggle(300);
-  });
+  function blog() {
+    window.location.href='/blog';
+    $('#home').removeClass('active');
+    $(this).addClass('active');
+    console.log('blog');
+  }
 
-  //functions
-  
+  $('#home').onclick = home;
+  $('#blog').onclick = blog;
+
 });

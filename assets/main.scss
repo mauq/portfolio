@@ -10,7 +10,7 @@ html {
 }
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: "brelaregular", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $h1-font-size-lg: 140px;
 $h1-font-size-md: 125px;
@@ -35,3 +35,4 @@ $on-laptop:        800px;
 // Import partials from the `minima` theme.
 @import 'home';
 @import 'nav-tab';
+@import 'blog';
