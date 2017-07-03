@@ -18,13 +18,5 @@ $(function() {
       $('#home-btn').removeClass('active');
         $('#blog-btn').addClass('active');
   }
-
-  function truncate() {
-    $('.post-description').each(function() {
-      $(this).text($(this).text().substr(0, maxDesLen) + '...');
-    })
-  }
-
-  truncate();
-
+  
 });
