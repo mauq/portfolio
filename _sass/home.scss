@@ -6,13 +6,14 @@
   margin-top: 15px;
   transition: background-color .75s ease-out;
   &:hover {
-    background-color: rgba(0,0,0,.4);
+    background-color: $brand-color-hover;
   }
 }
 
 .my-name {
   margin-top: 15px;
   margin-bottom: 15px;
+  color: #C7959F;
 }
 
 .contact-item {

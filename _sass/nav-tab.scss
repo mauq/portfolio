@@ -4,6 +4,20 @@
   right: 15px;
   z-index: 1000;
   // box-shadow: -2px 2px 2px #BFBFBF;
+  .btn-tog {
+    background-color: rgba(199,149,159, .8);
+    color: white;
+
+    &:hover {
+      background-color: rgba(199,149,159, .9);
+    }
+
+
+  }
+}
+
+.active {
+  background-color: rgb(199,149,159) !important;
 }
 
 a {
@@ -12,4 +26,5 @@ a {
   &:hover {
     text-decoration: none;
   }
+
 }
