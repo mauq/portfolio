@@ -1,8 +1,27 @@
+.post-column {
+  padding-left: 0px;
+}
+
 ul {
   padding-left: 0px;
 
   .blog-post {
     list-style: none;
     text-decoration: none;
+    margin-bottom: 48px;
+  }
+
+  .blog-title {
+    color: $text-color !important;
+    text-decoration: none !important;
+    &:hover {
+      text-decoration: underline !important;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .archives {
+    display: none;
   }
 }

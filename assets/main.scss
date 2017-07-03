@@ -9,9 +9,27 @@ html {
   box-sizing: inherit;
 }
 
+@font-face {
+    font-family:'Minimal Mono';
+    src: url('Minimal Mono.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FC;
+}
+
+@font-face {
+    font-family:'CircularStd-Black';
+    src: url('CircularStd-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
 // Our variables
-$base-font-family: "brelaregular", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: Courier, Helvetica, Arial, sans-serif;
+$base-font-size:   14px;
 $h1-font-size-lg: 140px;
 $h1-font-size-md: 125px;
 $h1-font-size-sm: 80px;
@@ -19,7 +37,7 @@ $h1-font-size-xs: 50px;
 $small-font-size:  12px;
 $base-line-height: 1.5;
 
-$text-color:       #0F0F0F;
+$text-color:       rgb(51,51,51);
 $text-color-light: #BDBDBD;
 $background-color: #FFF;
 $brand-color:      #2a7ae2;
@@ -30,7 +48,21 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+body {
+  font-family: $base-font-family;
+}
 
+p {
+  line-height: 1.5em;
+}
+
+h1,h2,h3 {
+  font-family: "CircularStd-Black";
+}
+
+label {
+  font-family: "Helvetica";
+}
 
 // Import partials from the `minima` theme.
 @import 'home';
