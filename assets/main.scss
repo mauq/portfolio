@@ -60,8 +60,17 @@ h1,h2,h3 {
   font-family: "CircularStd-Black";
 }
 
+// h1 {
+//   color: #F52633;
+// }
+
 label {
   font-family: "Helvetica";
+}
+
+li {
+  text-decoration: underline;
+  list-style: none;
 }
 
 // Import partials from the `minima` theme.

@@ -4,6 +4,7 @@
   width: 100%;
   margin-bottom: 15px;
   margin-top: 15px;
+  transition: background-color .75s ease-out;
   &:hover {
     background-color: rgba(0,0,0,.4);
   }
