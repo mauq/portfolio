@@ -17,11 +17,20 @@
 
 .contact-item {
   margin-bottom: 30px;
-   p {
+  p {
      margin-bottom: 0px;
-   }
+  }
+
 }
 
 section {
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 400px) {
+  .col-xxs {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
 }
