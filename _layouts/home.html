@@ -18,22 +18,9 @@
           <div class="col-xs-12 col-sm-6">
             <h2>Contact</h2>
             <hr></hr>
-            <div class="col-xs-6 contact-item col-xxs">
-              <p><strong>Email:</strong></p>
-              <p>mauqj3@gmail.com</p>
-            </div>
-            <div class="col-xs-6 contact-item col-xxs">
-              <p><strong>LinkedIn:</strong></p>
-              <p><a href="https://www.linkedin.com/in/quinn-mau-199a95113/">linkedin.com/quinn-mau</a></p>
-            </div>
-            <div class="col-xs-6 contact-item col-xxs">
-              <p><strong>Phone: </strong></p>
-              <p>(360) 742-9838</p>
-            </div>
-            <div class="col-xs-6 contact-item col-xxs">
-              <p><strong>Github: </strong></p>
-              <p><a href="https://github.com/mauq">github.com/mauq</a></p>
-            </div>
+            {% for item in site.data.home.contact-items %}
+              {% include contact-item.html %}
+            {% endfor %}
           </div>
         </div>
       </section>
@@ -43,46 +30,9 @@
         <h2>Selected Projects</h2>
         <hr></hr>
         <div class="row">
-          <div class="col-xs-12 col-sm-6">
-            <a href="http://students.washington.edu/mauq/college-majors/" target="_blank">
-              <div class="work-item">
-                <div class="holder">
-                  <h3>Interactive Visualization Tool</h3>
-                </div>
-                <img src="/images/startups.jpg" alt="" class="img-responsive col-xs-12 out">
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <a href="http://students.washington.edu/mauq/bacteria-charts/" target="_blank">
-              <div class="work-item">
-                <div class="holder">
-                  <h3>Bacteria Analysis</h3>
-                </div>
-                <img src="/images/bacteria.jpg" alt="" class="img-responsive col-xs-12 out">
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <a href="https://github.com/quinnmau/reusable-grouped-bar-chart" target="_blank">
-              <div class="work-item">
-                <div class="holder">
-                  <h3>Reusable D3.js Software</h3>
-                </div>
-                <img src="/images/reusablebarchart.jpg" alt="" class="img-responsive col-xs-12 out">
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <a href="http://apimashup-1153.appspot.com/" target="_blank">
-              <div class="work-item">
-                <div class="holder">
-                  <h3>Forecast Finder</h3>
-                </div>
-                <img src="/images/map1.jpg" alt="" class="img-responsive col-xs-12 out">
-              </div>
-            </a>
-          </div>
+          {% for item in site.data.home.projects %}
+            {% include project-item.html %}
+          {% endfor %}
         </div>
       </section>
       <!-- end selected works -->

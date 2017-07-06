@@ -1,0 +1,42 @@
+{
+  "contact-items": [
+    {
+      "title": "Email:",
+      "content": "mauqj3@gmail.com"
+    },
+    {
+      "title": "LinkedIn:",
+      "content": "linkedin.com/quinn-mau"
+    },
+    {
+      "title": "Phone:",
+      "content": "(360) 742-9838"
+    },
+    {
+      "title": "Github:",
+      "content": "github.com/mauq"
+    }
+  ],
+  "projects": [
+    {
+      "url": "http://students.washington.edu/mauq/college-majors/",
+      "title": "Interactive Visualization Tool",
+      "img": "/images/startups.jpg"
+    },
+    {
+      "url": "http://students.washington.edu/mauq/bacteria-charts/",
+      "title": "Bacteria Analysis",
+      "img": "/images/bacteria.jpg"
+    },
+    {
+      "url": "https://github.com/quinnmau/reusable-grouped-bar-chart",
+      "title": "Reusable D3.js Software",
+      "img": "/images/reusablebarchart.jpg"
+    },
+    {
+      "url": "http://apimashup-1153.appspot.com/",
+      "title": "Forecast Finder",
+      "img": "/images/map1.jpg"
+    }
+  ]
+}
