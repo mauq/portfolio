@@ -27,8 +27,17 @@ html {
     unicode-range: U+0020-00FE;
 }
 
+@font-face {
+    font-family:'Brela';
+    src: url('Brela.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FD;
+}
+
 // Our variables
-$base-font-family: Courier, Helvetica, Arial, sans-serif;
+$base-font-family: 'Brela', Helvetica, Arial, sans-serif;
 $base-font-size:   14px;
 $h1-font-size-lg: 140px;
 $h1-font-size-md: 125px;
@@ -54,7 +63,7 @@ body {
 }
 
 p {
-  line-height: 1.5em;
+  line-height: 2.0em;
 }
 
 h1,h2,h3 {
@@ -68,6 +77,13 @@ label {
 li {
   text-decoration: underline;
   list-style: none;
+}
+
+a {
+  color: $brand-color;
+  &:hover {
+    color: $brand-color-hover;
+  }
 }
 
 // Import partials from the `minima` theme.
