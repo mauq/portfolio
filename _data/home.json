@@ -21,22 +21,22 @@
     {
       "url": "http://students.washington.edu/mauq/college-majors/",
       "title": "Interactive Visualization Tool",
-      "img": "/images/startups.jpg"
+      "img": "images/startups.jpg"
     },
     {
       "url": "http://students.washington.edu/mauq/bacteria-charts/",
       "title": "Bacteria Analysis",
-      "img": "/images/bacteria.jpg"
+      "img": "images/bacteria.jpg"
     },
     {
       "url": "https://github.com/quinnmau/reusable-grouped-bar-chart",
       "title": "Reusable D3.js Software",
-      "img": "/images/reusablebarchart.jpg"
+      "img": "images/reusablebarchart.jpg"
     },
     {
       "url": "http://apimashup-1153.appspot.com/",
       "title": "Forecast Finder",
-      "img": "/images/map1.jpg"
+      "img": "images/map1.jpg"
     }
   ]
 }
