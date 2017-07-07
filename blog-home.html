@@ -7,9 +7,16 @@ permalink: /blog/
 ---
   <ul>
     {% for post in site.posts %}
-      <li class="blog-post">
-        <h2><a href="{{ post.url }}" class="blog-title">{{ post.title }}</a></h2>
-        <p class="post-description">{{ post.content | strip_html | strip_newlines | truncate: 150 }}</p>
-      </li>
+      {% if post.divider == false %}
+        <li class="blog-post">
+          <h2><a href="{{ post.url }}" class="blog-title">{{ post.title }}</a></h2>
+          <p class="post-description">{{ post.content | strip_html | strip_newlines | truncate: 150 }}</p>
+        </li>
+      {% else %}
+        <li class="blog-post">
+          <h2><a name="{{ post.monthYear }}" class="blog-title">{{ post.title }}</a></h2>
+          <hr></hr>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>

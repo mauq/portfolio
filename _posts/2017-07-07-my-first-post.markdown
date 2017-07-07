@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "My First Blog Post"
-date:   2017-06-30 13:31:43 -0800
+date:   2017-07-07 13:31:43 -0800
 categories: blog
-monthYear: "July 2017"
+monthYear: "july2017"
+divider: false
 ---
 
 # Hello,

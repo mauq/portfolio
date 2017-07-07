@@ -19,7 +19,9 @@
         <h3>Archives</h3>
         <hr></hr>
         <ul>
-            <li>July 2017</li>
+            {% for item in site.data.blog.archives %}
+              <li><a href="#{{ item.url }}">{{ item.date }}</a></li>
+            {% endfor %}
         </ul>
       </div>
     </div>
