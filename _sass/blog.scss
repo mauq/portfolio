@@ -18,6 +18,16 @@ ul {
       text-decoration: underline !important;
     }
   }
+
+  .blog-month {
+    color: $text-color !important;
+    text-decoration: none !important;
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+
+
 }
 
 @media screen and (max-width: 768px) {
