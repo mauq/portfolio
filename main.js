@@ -5,7 +5,7 @@ $(function() {
   $('#home-btn').click(function() {
     $('#blog-btn').removeClass('active');
     $(this).addClass('active');
-    window.location.href='/';
+    window.location.href='/portfolio';
   });
 
   $('#blog-btn').click(function() {
