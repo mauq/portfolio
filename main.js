@@ -11,7 +11,7 @@ $(function() {
   $('#blog-btn').click(function() {
     $('#home-btn').removeClass('active');
     $(this).addClass('active');
-    window.location.href='/portfolio/blog';
+    window.location.href='/portfolio/blog-home.html';
   });
 
   if (window.location.href.indexOf('/blog') > -1) {
