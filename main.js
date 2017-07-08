@@ -5,13 +5,13 @@ $(function() {
   $('#home-btn').click(function() {
     $('#blog-btn').removeClass('active');
     $(this).addClass('active');
-    window.location.href='/portfolio';
+    window.location.href='portfolio';
   });
 
   $('#blog-btn').click(function() {
     $('#home-btn').removeClass('active');
     $(this).addClass('active');
-    window.location.href='/portfolio/blog';
+    window.location.href='portfolio/blog';
   });
 
   if (window.location.href.indexOf('/blog') > -1) {
