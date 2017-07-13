@@ -9,7 +9,7 @@ permalink: /blog/
     {% for post in site.posts %}
       {% if post.divider == false %}
         <li class="blog-post">
-          <h2><a href="{{ post.url }}" class="blog-title">{{ post.title }}</a></h2>
+          <h2><a href="{{ post.url | prepend: site.baseurl}}" class="blog-title">{{ post.title }}</a></h2>
           <p class="post-description">{{ post.content | strip_html | strip_newlines | truncate: 150 }}</p>
         </li>
       {% else %}
