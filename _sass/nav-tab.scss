@@ -1,9 +1,40 @@
+.qbtn-group-vertical {
+  position: relative;
+  display: block;
+  vertical-align: middle;
+
+  .qbtn {
+    background-color: rgba(199,149,159, .8);
+    color: white;
+    font-family: Helvetica;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .5rem .75rem .5rem .75rem;
+    line-height: 1.25;
+    margin-bottom: 0;
+    flex: 0 1 auto;
+    position: relative;
+    font-size: 14px;
+
+    &:hover {
+      background-color: rgba(199,149,159, .9);
+    }
+  }
+
+}
+
 .btn-console {
   position: fixed;
   top: 15px;
   right: 15px;
   z-index: 1000;
   // box-shadow: -2px 2px 2px #BFBFBF;
+
+
+
   .btn-tog {
     background-color: rgba(199,149,159, .8);
     color: white;
