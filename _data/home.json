@@ -5,6 +5,10 @@
       "content": "mauqj3@gmail.com"
     },
     {
+      "title": "Resume"
+
+    },
+    {
       "title": "Phone:",
       "content": "(360) 742-9838"
     },
@@ -15,12 +19,12 @@
   ],
   "projects": [
     {
-      "url": "http://students.washington.edu/mauq/college-majors/",
+      "url": "https://mauq.github.io/data-exploration-d3/",
       "title": "Interactive Visualization Tool",
       "img": "images/startups.jpg"
     },
     {
-      "url": "http://students.washington.edu/mauq/bacteria-charts/",
+      "url": "https://mauq.github.io/bacteria-charts/",
       "title": "Bacteria Analysis",
       "img": "images/bacteria.jpg"
     },
